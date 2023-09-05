@@ -1,0 +1,42 @@
+.home-bg-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 80%;
+  height: 100vh;
+}
+.shop-now-button {
+  padding: 10px;
+  background-color: #0b69ff;
+  border: none;
+  align-self: flex-start;
+  border-radius: 8px;
+  color: white;
+  font-size: 20px;
+}
+.text-profile-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  font-family: 'Roboto';
+}
+.text-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  margin-right: 20px;
+}
+.home-para {
+  color: #64748b;
+  font-size: 20px;
+}
+.home-heading {
+  font-size: 50px;
+  font-family: 'Roboto';
+}
